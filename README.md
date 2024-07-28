@@ -1,7 +1,7 @@
-# electron 多 webview 预渲染容器替换demo
+# electron 多 webview Pre-rendering container replacement demo
 
-这是 electron 的性能优化大杀器之一，核心思想是通过 browserView 提前渲染下一页的 内容，进入下一页时将提前渲染好的 browserView 替换老的 browserView
+This is one of electron's performance optimization killers. The core idea is to render the content of the next page in advance through browserView, and replace the old browserView with the pre-rendered browserView when entering the next page.
 
-如下，常见的图片 list 页面，可以看到通过这个手段，下一页的 img 提前渲染好了，已经没有了图片加载的过程了
+As shown below, a common image list page. You can see that through this method, the img of the next page is rendered in advance, and there is no image loading process.
 
 ![./demo.gif](./demo.gif)
